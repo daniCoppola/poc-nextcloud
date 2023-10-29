@@ -160,8 +160,8 @@ class E2EE():
         """ Given two ciphertext encrypted using GCM with the same IV,
             it recovers the plaintext. The assumption is that that the
             two underlying plaintexts differ by one character, e.g.
-            ptxt1: Hii, my name is Daniele
-            ptxt2: Hi, my name is Daniele
+            ptxt1: IV must not be reused 
+            ptxt2: IVs must not be reused
 
         Args:
             ctxt1 (bytes): ctxt corresponding to the first encrypted version of a file
