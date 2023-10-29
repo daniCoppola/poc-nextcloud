@@ -1,0 +1,37 @@
+<?php
+$CONFIG = array (
+"log_type" => "file",
+"logfile" => "nextcloud.log",
+"loglevel" => 0,
+'passwordsalt' => '4C0iY+KJjKeIzYUvE768xQNvZL5C++',
+'secret' => '+ib48sXSYZPlVMA7nfWWoUtnpantK5y1wVURmfRIcs+4KTHT',
+'datadirectory' => '/var/www/nextcloud/data',
+'dbtype' => 'mysql',
+'version' => '24.0.5.1',
+'overwrite.cli.url' => 'http://localhost',
+'dbname' => 'nextcloud',
+'dbhost' => 'localhost',
+'dbport' => '',
+'dbtableprefix' => 'oc_',
+'mysql.utf8mb4' => true,
+'dbuser' => 'username',
+'dbpassword' => 'password',
+'installed' => true,
+'instanceid' => 'oc4bhkc0r1q1',
+'maintenance' => false,
+'e2e_file_versioning' => true,
+'e2e_public_key_attack' => false,
+'e2e_add_metadata_key' => true,
+'e2e_empty_metadata' => false,
+'e2e_repeated_iv' => false,
+'disable_wipe' => false,
+'e2e_public_key_exponent' => '3469157',
+'e2e_public_key_modulus' => '1064589704199982570517978269067534477104058390258427399464993208754272422695719108056160771604621897616559311338245215118160745915018552612403836708792334495769441961281010008815634029470320019821649418194360051091874182044400243818221874100664368715764621908100739617884941359511104232170528904620525920292501025360941787116345654786111280638548436453495321514213746411663089741349658051710',
+'e2e_public_key_lambda' => '65537',
+  'trusted_domains' =>
+  array (
+    0 => 'localhost',
+    1 => '192.168.1.*',
+  ),
+
+);

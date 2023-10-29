@@ -1,0 +1,18 @@
+{
+    "server": {
+        "base_path": "/var/www/nextcloud",
+        "master": "f3053238",
+        "skey": "master_a8ced66e.privateKey",
+        "pkey": "master_a8ced66e.publicKey",
+        "folder_metadata": "10484",
+        "appdata": "appdata_oc4bhkc0r1q1"
+    },
+    "attack": {
+        "versioning": true,
+        "type": "e2e_empty_metadata",
+        "metadataKey": "00000000000000000000000000000000",
+        "metadataKeyIndex": "1",
+        "forbiddenAttack": true,
+        "targetPtxt": "\nPlease forgive me <3\n"
+    }
+}
